@@ -1,0 +1,152 @@
+.logo{
+	margin-left:  -10px;
+	margin-top: -7px;
+	background-image: url(about2.jpg) ;
+}
+
+.about1{
+	margin-top: -80px;
+	margin-bottom: 100px;
+	margin-right: 20px;
+	font-size: 22px;
+}
+
+#Home{
+	height: 650px;
+	opacity: 0.9;
+}
+
+
+
+
+.about2{
+    display: block;
+    @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+      
+    }
+  }
+
+
+.aboutimg{
+    flex-basis: 40%;
+    background: #F2F3F8;
+    display: flex;
+    flex-wrap: wrap;
+    img {
+      max-width: 100%;
+      align-self: flex-start;
+      @media screen and (min-width: 1200px) {
+        align-self: stretch;
+      }
+    }
+  }
+
+.aboutleft{
+	font-size: 25px;
+    flex-basis: 60%;
+    background: #DEF0FF;
+    padding: 30px 15px;
+  }
+
+#skill{
+	margin-top: 150px;
+}
+
+.item{
+	border: solid;
+	color: cyan;
+	background-color: red;
+	width:12.3%;
+	float: left;
+   padding: 10px;
+
+   
+}
+
+.item1{
+	border:solid;
+	height: 550px;
+	background-color:pink;
+}
+
+.item,img{
+	border:solid;
+
+}
+
+#Projects{
+	margin-top: 150px;
+}
+
+.item2{
+	border: solid;
+	font-size: 25px;
+	color: teal;
+	background-color: chartreuse;
+
+}
+
+#Education{
+	margin-top: 150px;
+}
+
+.item3{
+    border: solid;
+	color: navy;
+	background-color: lightgreen;
+}
+
+#Certifications{
+	margin-top: 150px;
+}
+
+.item4{
+	border: solid;
+	color: blue;
+	background-color: yellowgreen;
+	font-size: 30px;
+
+}
+
+.footer{
+	background-color: lightcyan;
+}
+
+.item5{
+	font-size: 25px;
+}
+
+.item6{
+	border: solid;
+	color: blue;
+	background-color: lightblue;
+	font-size: 25px;
+}
+
+/*.item {
+        flex-basis: 32%;
+        text-align: center;
+        border: 1px solid #222;
+        padding: 30px 15px;
+        margin-bottom: 30px;
+        @media screen and (min-width: 768px) {
+          margin-bottom: 0;
+        }
+
+        border-width: 5px 5px 5px 5px;
+        border-image: linear-gradient(45deg, rgba(#FF9800, 1) 0%, rgba(#800080, 1) 100%);
+        border-image-slice: 9;
+        border-style: solid;
+        img {
+          max-width: 100px;
+          height: auto;
+        }
+      }*/
+
+
+
+
+
+
